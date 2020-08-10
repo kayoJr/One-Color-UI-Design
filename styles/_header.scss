@@ -1,0 +1,61 @@
+.navcontainer{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  .logo {
+    img {
+      width: 40%;
+    }
+  }
+  nav {
+    background: linear-gradient($black, $lightblack);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    ul {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      a {
+        color: $white;
+        font-size: 1.5rem;
+        padding: 1rem 0.8rem;
+        margin-left: 9rem;
+        background-color: #f5453800;
+        border-radius: 20px;
+        transition: background-color 0.6s;
+        &:hover {
+          background: $red;
+        }
+      }
+    }
+  }
+}
+  header{
+    background: radial-gradient(#525252, #131313);
+    height: 90vh;
+    color: $white;
+    position: relative;
+  .head {
+      padding-top: 4rem;
+    font-size: 3rem;
+  }
+  .img {
+    img {
+      width: 50%;
+      position: absolute;
+      left: 25%;
+      top: 20%;
+    }
+  }
+  .info {
+    position: absolute;
+    left: 60%;
+    bottom: 2rem;
+    p {
+      padding: 1rem 0;
+      font-size: larger;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: adelone;
+  src: url(../fonts/AdelonAntique-Regular.ttf);
+}
+/*colors*/
+$red: #f54538;
+$white: #fff;
+$black: rgb(7, 7, 7);
+$lightblack: #323232;
+/*lists*/
+ul {
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
+}
+/*margins*/
+.ml-10 {
+  margin-left: 10%;
+}
+.mr-10 {
+  margin-right: 10%;
+}
+.text-center{
+    text-align: center;
+}

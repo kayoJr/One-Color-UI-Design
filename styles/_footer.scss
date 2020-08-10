@@ -1,0 +1,22 @@
+footer {
+  background: linear-gradient(#131313, #525252);
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  ul {
+    display: flex;
+    img {
+      margin-right: 2rem;
+      transform: scale(1);
+      transition: transform 0.5s ease-in-out;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
