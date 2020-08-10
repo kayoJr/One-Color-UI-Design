@@ -1,25 +1,25 @@
-#section-b{
-    background: radial-gradient(#525252, #131313);
-    position: relative;
-    color: $white;
-    h1{
-        font-size: 5rem;
-        position: absolute;
-        left: 29rem;
+#section-b {
+  background: radial-gradient(#525252, #131313);
+  position: relative;
+  color: $white;
+  h1 {
+    font-size: 4rem;
+    position: absolute;
+    left: 29rem;
+  }
+  .circle {
+    img {
+      position: absolute;
+      left: 23rem;
+      z-index: 0;
+      top: -4rem;
     }
-    .circle{
-        img{
-            position: absolute;
-            left: 23rem;
-            z-index: 0;
-            top: -4rem;
-        }
+  }
+  .camera {
+    img {
+      position: relative;
+      width: 50%;
+      left: 23rem;
     }
-    .camera{
-        img{
-          position: relative;
-            width: 50%;
-            left: 23rem;
-        }
-    }
+  }
 }

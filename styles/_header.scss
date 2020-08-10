@@ -1,7 +1,7 @@
-.navcontainer{
-    position: sticky;
-    top: 0;
-    z-index: 1;
+.navcontainer {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   .logo {
     img {
       width: 40%;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     ul {
       display: flex;
       align-items: center;
@@ -32,13 +32,14 @@
     }
   }
 }
-  header{
-    background: radial-gradient(#525252, #131313);
-    height: 90vh;
-    color: $white;
-    position: relative;
+header {
+  background: radial-gradient(#525252, #131313);
+  height: 90vh;
+  color: $white;
+  position: relative;
+  font-family: lobster;
   .head {
-      padding-top: 4rem;
+    padding-top: 4rem;
     font-size: 3rem;
   }
   .img {

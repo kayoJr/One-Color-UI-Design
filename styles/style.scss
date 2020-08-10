@@ -10,6 +10,7 @@
 }
 body {
   font-family: "adelone";
+  font-weight: lighter;
 }
 @media (max-width: 769px) {
   .navcontainer {
@@ -19,18 +20,18 @@ body {
         padding: 1rem 0;
       }
     }
-  
-  nav {
-    flex-direction: row;
-    ul {
-      padding: 1rem 0;
-      a {
+
+    nav {
+      flex-direction: row;
+      ul {
         padding: 1rem 0;
-        margin-left: 1rem;
+        a {
+          padding: 1rem 0;
+          margin-left: 1rem;
+        }
       }
     }
   }
-}
   header {
     height: 85vh;
     position: unset;
@@ -102,21 +103,20 @@ body {
       }
     }
   }
-  footer{
-    p{
+  footer {
+    p {
       font-size: 1rem;
       margin-left: 1rem !important;
     }
-    ul{
-      img{
+    ul {
+      img {
         margin-right: 1rem;
       }
     }
   }
 }
-@media(max-width: 350px){
+@media (max-width: 350px) {
   header {
-
     .info {
       position: unset;
       text-align: center;

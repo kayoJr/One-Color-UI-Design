@@ -1,7 +1,10 @@
-
 @font-face {
   font-family: adelone;
-  src: url(../fonts/AdelonAntique-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: lobster;
+  src: url(../fonts/Lobster-Regular.ttf);
 }
 /*colors*/
 $red: #f54538;
@@ -22,6 +25,6 @@ ul {
 .mr-10 {
   margin-right: 10%;
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }

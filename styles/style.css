@@ -1,6 +1,11 @@
 @font-face {
   font-family: adelone;
-  src: url(../fonts/AdelonAntique-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: lobster;
+  src: url(../fonts/Lobster-Regular.ttf);
 }
 
 /*colors*/
@@ -35,6 +40,7 @@ ul a {
 #section-a h1 {
   font-size: 7rem;
   padding: 4rem;
+  font-family: adelone;
 }
 
 #section-a .boxes {
@@ -147,6 +153,7 @@ header {
   height: 90vh;
   color: #fff;
   position: relative;
+  font-family: lobster;
 }
 
 header .head {
@@ -220,7 +227,7 @@ footer p {
 }
 
 #section-b h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   position: absolute;
   left: 29rem;
 }
@@ -247,6 +254,7 @@ footer p {
 
 body {
   font-family: "adelone";
+  font-weight: lighter;
 }
 
 @media (max-width: 769px) {
